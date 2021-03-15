@@ -1,11 +1,13 @@
 # touchnote
 1. Create a database with name sample (any name you choose)
 2. If are using different name then please make changes in connection/connection.go.
-3. I have used my loginID password in that connection please make changes and put your mysql password.(mostly it is root).
-4. There are 5 different API:
-5. "/hello" :
-6. This API is for enrollment of customer into the Database.
-7. Sample JSON request is :{
+4. I have used my loginID password in that connection please make changes and put your mysql password.(mostly it is root).
+5. To run the server use go run main.go from src/api folder.
+6. The server will up on port 8080.
+7. There are 5 different API:
+8. "/hello" :
+9. This API is for enrollment of customer into the Database.
+10. Sample JSON request is :{
    "Name" :"amey",
    "EmailId":"ameymanjkr@gmail.com",
    "Balance" : 100,
